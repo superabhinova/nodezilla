@@ -1,0 +1,40 @@
+{
+  "name": "nodezilla",
+  "version": "1.0.0",
+  "description": "Quickly create node projects to speedup your workflow!😁",
+  "main": "dist/index.js",
+  "bin": {
+    "@abhisajja/nodezilla": "bin/nodezilla",
+    "nodezilla": "bin/nodezilla"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc  && node dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "node"
+  ],
+  "author": "abhisajja",
+  "license": "MIT",
+  "files": [
+   "bin/",
+   "dist/",
+   "templates/"
+  ],
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "execa": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "typescript": "^4.1.2",
+    "@types/ncp": "^2.0.4"
+  }
+}
