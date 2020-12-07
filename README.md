@@ -2,6 +2,9 @@
 
 ### Quickly create node projects to speedup your workflow!😁
 
+![npm](https://img.shields.io/npm/dt/nodezilla?color=blue&label=npm%20downloads&logo=npm&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/abhisajja/nodezilla?color=orange&logo=github&style=for-the-badge)
+
 ## Documentation
 
 #### Step-1: Install the CLI
